@@ -1,0 +1,477 @@
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* banner start here */
+
+.banner {
+    width: 100%;
+    background-image: url("../images/banner1.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding-top: 50px;
+    padding-bottom: 237px;
+}
+
+.banner-navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.banner-navigation h1 {
+    float: left;
+    margin-top: 0px;
+    font-size: 40px;
+    color: white;
+}
+
+.banner-navigation ul {
+    float: right;
+    margin-top: 0px;
+
+}
+
+.banner-navigation li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.banner-navigation .fixed-background {
+    background-color: #2b8ec2;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner-navigation li:hover {
+    background-color: #2b8ec2;
+    border-radius: 5px;
+}
+
+.banner-text {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    color: #ffffffe4;
+    margin-top: 150px;
+}
+
+.banner-text h2 {
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
+
+.banner-text p {
+    font-size: 20px;
+    line-height: 30px;
+    color: silver;
+}
+
+.banner-text button {
+    background-color: #2b8ec2;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* banner ends here */
+
+/* three section start here */
+
+.three-section {
+    width: 100%;
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.three-section .center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.three-section .center .box {
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+.three-section .center .margin-left {
+    margin-left: 4.5%;
+}
+
+.three-section .center h3 {
+    color: whitesmoke;
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.three-section .center i {
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+.three-section .center p {
+    color: grey;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.three-section .center .box button {
+    background-color: #2b8ec2;
+    border: none;
+    border-radius: 5%;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+/* three section ends here */
+
+/* big section start here */
+
+.big-section {
+    width: 100%;
+    background-color: #101113;
+    padding: 50px 0px;
+}
+
+.big-section .center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.big-section .center .block1 {
+    width: 65%;
+    float: left;
+}
+
+.big-section .center .block2 {
+    width: 32%;
+    float: right;
+}
+
+.big-section .center .block1 h3 {
+    font-size: 25px;
+    color: rgba(245, 245, 245, 0.705);
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.big-section .center .block1 img {
+    width: 100%;
+}
+
+.big-section .center .block1 p {
+    color: grey;
+}
+
+.big-section .center .block1 .white {
+    color: white;
+}
+
+.big-section .center .block1 button {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    background-color: #2b8ec2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+
+.big-section .center .block1 hr {
+    margin-top: 50px;
+    border-top: 1px;
+}
+
+/* small block1 start here */
+
+.block1 .small-block1 {
+    width: 100%;
+}
+
+.block1 .small-block1 .box1 {
+    width: 48%;
+    float: left;
+}
+
+.block1 .small-block1 .box2 {
+    width: 48%;
+    float: right;
+}
+
+.block1 .small-block1 .box1 button {
+    float: left;
+}
+
+.block1 .small-block1 .box1 h3 {
+    color: white;
+    margin-top: 50px;
+}
+
+.block1 .small-block1 .box1 h4 {
+    color: whitesmoke;
+    font-weight: 800;
+    float: left;
+    margin-top: 33px;
+    margin-left: 16px;
+    font-size: 13px;
+}
+
+.block1 .small-block1 .box1 p {
+    font-size: 12px;
+    clear: both;
+    line-height: 30px;
+}
+
+.block1 .small-block1 .box1 hr {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.block1 .small-block1 .box1 .margin-top2 {
+    margin-top: 90px;
+}
+
+.block1 .small-block1 .box1 .margin-top1 {
+    margin-top: 105px;
+}
+
+.block1 .small-block1 .box2 h3 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.block1 .small-block1 .box2 h4 {
+    color: rgba(245, 245, 245, 0.657);
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.block1 .small-block1 .box2 li {
+    color: grey;
+    font-size: 10px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+
+.block1 .small-block1 .box2 hr {
+    margin-top: 5px;
+}
+
+/* big section block 2 start here */
+
+.big-section .center .block2 .small-block2 .box1 {
+    width: 45.5%;
+    float: left;
+}
+
+.big-section .center .block2 .small-block2 .box2 {
+    width: 45.5%;
+    float: right;
+}
+
+.big-section .center .block2 .small-block2 .box1 h3 {
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+    margin-left: 22px;
+}
+
+.big-section .center .block2 .small-block2 .box2 h3 {
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.big-section .center .block2 .small-block2 li {
+    color: grey;
+    font-size: 12px;
+}
+
+.big-section .center .small-block2 hr {
+    border-top: 1px;
+}
+
+.big-section .center h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.big-section .center .box {
+    margin-top: 20px;
+}
+
+.big-section .center .box img {
+    width: 20%;
+    border-radius: 5px;
+    float: left;
+    margin-top: 10px;
+}
+
+.big-section .center .box p {
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 25px;
+    float: left;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.big-section .center .box hr {
+    clear: both;
+    border-top: 1px;
+}
+
+.big-section .center button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b8ec2;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* big section end here */
+
+/* footer start here */
+
+.footer{
+    width:100%;
+    background-color:#101113;
+    padding:50px 0px; 
+}
+.footer-center{
+    max-width:1200px;
+    margin:0 auto;
+    text-align: center;
+    color:grey;
+}
+.footer-center hr{
+    margin-top:0px;
+    border-top:1px;
+    margin-bottom:30px;
+}
+.footer-center .white{
+    color:white;
+}
+
+/* footer ends here */
+
+
+
+/* media query start here */
+
+@media only screen and (max-width:700px) {
+    .banner-navigation li {
+        float: none;
+        margin-left: 0px;
+        
+    }
+    .banner-navigation ul{
+        float: none;
+        text-align: left;
+        margin-top:80px;
+    }
+    .banner-navigation h1{
+        float: none;
+        text-align: center;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-text p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    /* three section start here */
+    .three-section .center .box {
+        width: 80%;
+        float: none;
+        clear: both;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .three-section .center .margin-left {
+        margin: 0 auto;
+        margin-top: 30px;
+        border-top: 1px solid silver;
+        padding-top: 10px;
+    }
+    /* big section start here */
+    .big-section .center .block1-big {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .big-section .center .block1 {
+        width: 100%;
+        clear: both;
+        float: none;
+    }
+    .big-section .center .block2 {
+        width: 100%;
+        clear: both;
+    }
+    .block1 .small-block1 .box1 {
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .block1 .small-block1 .box2 {
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .big-section .center .block2 .small-block2 .box1 {
+        width: 90%;
+        clear: both;
+        margin-left: 20px;
+    }
+    .big-section .center .block2 .small-block2 .box2 {
+        width: 90%;
+        clear: both;
+        float: none;
+        margin-left: 20px;
+    }
+    
+    /* block2 four-box start here */
+    .block2 .block2-fourbox{
+        width:50%;
+        text-align: center;
+        margin:0 auto;
+    }
+
+
+
+
+}
