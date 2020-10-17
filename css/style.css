@@ -120,8 +120,8 @@ body {
 
 .three-section .center .box:hover{
     background-color:grey;
-    color:black;
-    transform:(0.2)
+    color:#FF4E78;
+    transform:scale(0.2)
     
 }
 
