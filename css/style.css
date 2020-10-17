@@ -119,9 +119,8 @@ body {
 }
 
 .three-section .center .box:hover{
-    background-color:grey;
-    color:#FF4E78;
-    transform:scale(0.2)
+    background-color:red;
+    transform:scale(1.2)
     
 }
 
